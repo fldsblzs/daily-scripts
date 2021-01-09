@@ -50,5 +50,3 @@ function Switch-K8sContext {
         }
     }
 }
-
-Switch-K8sContext C:\Users\folde\OneDrive\Documents\PowerShell\k8sContexts.json prod
