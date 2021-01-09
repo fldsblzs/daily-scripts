@@ -37,7 +37,7 @@ function Set-GitUser {
             else {
                 if (!(Test-Path -Path $Repository)) {
                     Write-Error "Invalid repository path: '$Repository'"
-                    exit;
+                    exit
                 }
 
                 $context = $Repository
@@ -70,7 +70,7 @@ function Set-GitUser {
         }       
         
         Write-Output "Updated configuration:"
-        
+
         git.exe config user.name
         git.exe config user.email
 
