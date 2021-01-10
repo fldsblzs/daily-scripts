@@ -15,5 +15,3 @@ function Set-K8sNamespace {
         kubectl.exe get all 
     }
 }
-
-Set-K8sNamespace asd
