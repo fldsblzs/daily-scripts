@@ -77,3 +77,5 @@ function Set-GitUser {
         Set-Location -Path $originalContext.Path
     }
 }
+
+Export-ModuleMember -Function Set-GitUser

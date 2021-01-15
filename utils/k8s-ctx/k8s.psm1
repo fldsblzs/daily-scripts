@@ -50,3 +50,5 @@ function Switch-K8sContext {
         }
     }
 }
+
+Export-ModuleMember -Function Switch-K8sContext

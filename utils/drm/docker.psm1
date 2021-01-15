@@ -11,3 +11,5 @@ function Remove-DanglingImages {
         & docker rmi $id 
     }
 }
+
+Export-ModuleMember -Function Remove-StoppedContainers, Remove-AllContainers, Remove-DanglingImages

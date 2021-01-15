@@ -1,13 +1,15 @@
 # git-user
 
 
-1. Reference the script in your PowerShell profile
+1. Import the module in your `Profile.ps1`:
 
 ```PowerShell
-. C:\_repos\ps-scripts\utils\gitUsers.ps1
+Import-Module -Name "C:\_repos\ps-scripts\utils\gitUsers.ps1"
 ```
 
-2. Set an alias for the function
+2. Set an alias for the function:
+
+> This step is optional.
 
 ```PowerShell
 New-Alias -Name git-user Set-GitUser
