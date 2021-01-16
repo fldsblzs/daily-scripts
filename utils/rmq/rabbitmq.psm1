@@ -26,7 +26,7 @@ function Start-RabbitMQ {
 
         Write-Output "Starting RabbitMq instance..."
 
-        docker.exe run --rm -it --hostname $hostname -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+        docker.exe run --rm -it --hostname $Hostname -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
     }
 }
