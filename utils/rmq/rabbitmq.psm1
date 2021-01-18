@@ -24,6 +24,10 @@ function Start-RabbitMQ {
             docker.exe pull rabbitmq:3-management
         }
 
+        if ($host.ui.RawUI.WindowTitle -ne "RabbitMq") {
+            $host.ui.RawUI.WindowTitle = “RabbitMq”
+        }
+
         Write-Output "Starting RabbitMq instance..."
 
         docker.exe run --rm -it --hostname $Hostname -p 15672:15672 -p 5672:5672 rabbitmq:3-management
