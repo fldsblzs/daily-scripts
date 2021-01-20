@@ -26,7 +26,7 @@ git-user "user name" "user@email.com"
 ### Set git user name and email for a single repository
 
 ```PowerShell
-# Current content
+# Current repository as context
 git-user "user name" "user@email.com" "."
 
 # Specific repo
