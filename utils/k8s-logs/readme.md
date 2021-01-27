@@ -1,4 +1,4 @@
-# K8s context switcher utility
+# K8s logs utility
 
 1. Import the module in your `Profile.ps1`:
 
