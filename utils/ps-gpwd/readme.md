@@ -17,6 +17,6 @@ New-Alias -Name gpwd Get-PathToClipboard
 ### Usage
 
 ```PowerShell
-gp
+gpwd
 ...
 ```
