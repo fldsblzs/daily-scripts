@@ -1,4 +1,4 @@
-# K8s namespace switcher utility
+# PowerShell window title utility
 
 1. Import the module in your `Profile.ps1`:
 
