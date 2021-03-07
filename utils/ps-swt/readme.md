@@ -3,7 +3,7 @@
 1. Import the module in your `Profile.ps1`:
 
 ```PowerShell
-Import-Module -Name "C:\_repos\ps-scripts\utils\ps-sn\ps.psm1"
+Import-Module -Name "C:\_repos\ps-scripts\utils\ps-swt\ps.psm1"
 ```
 
 2. Add alias for the function as you like:
