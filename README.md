@@ -9,4 +9,6 @@ This repository was created as a storage to have a single place for all the util
 ...                 Windows Terminal related stuff
 /powershell
 ...                 Powershell utility scripts to ease the pain of existence
+/kubuntu
+...                 Some small docs on helpful configurations and fixes
 ```

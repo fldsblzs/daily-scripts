@@ -1,5 +1,7 @@
 # Custom display configuration for sddm
 
+Issue: multiple screens caused weird errors on login screen (secondary 1080p monitor screen appeared on top of the 4K display)
+
 ```sh
 # get connected devices
 > xrandr | grep ' connected'
