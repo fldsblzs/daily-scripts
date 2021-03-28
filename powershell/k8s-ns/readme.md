@@ -1,9 +1,9 @@
-# K8s exec utility
+# K8s namespace switcher utility
 
 1. Import the module in your `Profile.ps1`:
 
 ```PowerShell
-Import-Module -Name "C:\_repos\ps-scripts\utils\k8s-exec\k8s.psm1"
+Import-Module -Name "C:\_repos\daily-scripts\powershell\k8s-ns\k8s.psm1"
 ```
 
 2. Add alias for the function as you like:
@@ -11,11 +11,13 @@ Import-Module -Name "C:\_repos\ps-scripts\utils\k8s-exec\k8s.psm1"
 > This step is optional.
 
 ```PowerShell
-New-Alias -Name exec Start-K8sPodShell
+New-Alias -Name ns Set-K8sNamespace
 ```
 
 ### Usage
 
 ```PowerShell
-exec pod-name
+ns default
+ns monitoring
+...
 ```

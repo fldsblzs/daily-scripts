@@ -3,7 +3,7 @@
 1. Import the module in your `Profile.ps1`:
 
 ```PowerShell
-Import-Module -Name "C:\_repos\ps-scripts\utils\rmq\rabbitmq.psm1"
+Import-Module -Name "C:\_repos\daily-scripts\powershell\rmq\rabbitmq.psm1"
 ```
 
 2. Add alias for the function as you like:

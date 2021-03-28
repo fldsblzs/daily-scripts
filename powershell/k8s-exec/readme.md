@@ -1,9 +1,9 @@
-# PowerShell window title utility
+# K8s exec utility
 
 1. Import the module in your `Profile.ps1`:
 
 ```PowerShell
-Import-Module -Name "C:\_repos\ps-scripts\utils\ps-swt\ps.psm1"
+Import-Module -Name "C:\_repos\daily-scripts\powershell\k8s-exec\k8s.psm1"
 ```
 
 2. Add alias for the function as you like:
@@ -11,13 +11,11 @@ Import-Module -Name "C:\_repos\ps-scripts\utils\ps-swt\ps.psm1"
 > This step is optional.
 
 ```PowerShell
-New-Alias -Name swt Set-WindowTitle
+New-Alias -Name exec Start-K8sPodShell
 ```
 
 ### Usage
 
 ```PowerShell
-swt dev
-swt docker
-...
+exec pod-name
 ```

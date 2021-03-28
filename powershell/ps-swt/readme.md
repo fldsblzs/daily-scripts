@@ -1,9 +1,9 @@
-# K8s namespace switcher utility
+# PowerShell window title utility
 
 1. Import the module in your `Profile.ps1`:
 
 ```PowerShell
-Import-Module -Name "C:\_repos\ps-scripts\utils\k8s-ns\k8s.psm1"
+Import-Module -Name "C:\_repos\daily-scripts\powershell\ps-swt\ps.psm1"
 ```
 
 2. Add alias for the function as you like:
@@ -11,13 +11,13 @@ Import-Module -Name "C:\_repos\ps-scripts\utils\k8s-ns\k8s.psm1"
 > This step is optional.
 
 ```PowerShell
-New-Alias -Name ns Set-K8sNamespace
+New-Alias -Name swt Set-WindowTitle
 ```
 
 ### Usage
 
 ```PowerShell
-ns default
-ns monitoring
+swt dev
+swt docker
 ...
 ```

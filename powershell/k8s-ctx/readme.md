@@ -3,7 +3,7 @@
 1. Import the module in your `Profile.ps1`:
 
 ```PowerShell
-Import-Module -Name "C:\_repos\ps-scripts\utils\k8s-ctx\k8s.psm1"
+Import-Module -Name "C:\_repos\daily-scripts\powershell\k8s-ctx\k8s.psm1"
 ```
 
 2. Add a configuration file next to your `Profile.ps1`:

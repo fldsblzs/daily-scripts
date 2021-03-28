@@ -3,7 +3,7 @@
 1. Import the module in your `Profile.ps1`:
 
 ```PowerShell
-Import-Module -Name "C:\_repos\ps-scripts\utils\docker.ps1"
+Import-Module -Name "C:\_repos\daily-scripts\powershell\docker.ps1"
 ```
 
 2. Set aliases for the functions you want to use:

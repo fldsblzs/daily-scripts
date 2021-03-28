@@ -5,7 +5,7 @@ Gets all resources in the specified namespace. If the namespace was not provided
 1. Import the module in your `Profile.ps1`:
 
 ```PowerShell
-Import-Module -Name "C:\_repos\ps-scripts\utils\k8s-all\k8s.psm1"
+Import-Module -Name "C:\_repos\daily-scripts\powershell\k8s-all\k8s.psm1"
 ```
 
 2. Set an alias for the function:

@@ -1,12 +1,12 @@
-# ps-scripts
+# daily-scripts
 
-This project was created to have a single repository for all the utility scripts I create in the future. Mostly PowerShell stuff, but anything goes. Feel free to grab something you like.
+This repository was created as a storage to have a single place for all the utility scripts I use. Some of them were created by me, the rest was found on the internet to solve whatever problem I had. Feel free to grab something you like.
 
 ## Structure
 
 ```
-/terminal
-...                 Windows Terminal related
-/utils
-...                 Utility scripts for my development environment
+/windows-terminal
+...                 Windows Terminal related stuff
+/powershell
+...                 Powershell utility scripts to ease the pain of existence
 ```
