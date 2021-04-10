@@ -7,5 +7,5 @@ code .git/config
 ### Template
 
 ```
-git@github.com/username/repo.git
+git@github.com:username/repo.git
 ```
